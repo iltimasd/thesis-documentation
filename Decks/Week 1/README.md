@@ -101,7 +101,6 @@ The NYPD also has around a dozen offices around the world to help aid in the "Wa
 ---
 # Gamify the NY Surveillance Expereince
 ## A light hearted educational way of understanding systems of surveillance in NY
-
 ---
 # Ethnographic research of NYPD
 ## Understanding the NYPD, through the lens of a user?
