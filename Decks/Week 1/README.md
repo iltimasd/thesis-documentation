@@ -1,5 +1,7 @@
 class: middle, center
+
 #Ideation
+
 ---
 #Assignment
 Description: Week 1 - Assignment
@@ -37,13 +39,15 @@ etc.
 
 ???
 What are the different languages and systems that the NYPD use to communicate and identify each other. Can we start to understand and decode individuals and groups as they belong to in the NYPD via the markings on cars, uniforms, etc.
+
 ---
 # Opputunity: DOT Traffic Cams
 ## Utilizing NYC infrastructure to *sous*veil the NYPD
 
-![Live DOT Camera Image of Union Square](http://207.251.86.238/cctv474.jpg)
+![Live DOT Camera Image of Union Square](http://207.251.86.238/cctv474.jpg?)
 
 *refresh to get new image*
+
 ---
 # Speculating NYPD Relationship with DOE
 ## What does increased presence of the NYPD look like inside schools?
@@ -52,6 +56,7 @@ Exploration of surveillance of marganlized youth and push to introduce guns in s
 
 ???
 This would be extension of a small project I completed last year, a pamphlet for hardware appointed to NYPD officers that also were TAs in NYC public schools
+
 ---
 # Tools of a Just System
 ## Departing from discpline into restorative justice
@@ -60,6 +65,7 @@ What are the tools of agents that enforce restorative justice?
 
 ???
 The NYPD, and police in general, have many tools at their disposable. Nearly all of them are meant for, often violent, discpline.
+
 ---
 # Self-Defense in the 4th Generation of War
 ## What are the tactics to defend oneself when every urban citizen is target
@@ -72,6 +78,7 @@ The Westen Military docotorine sees urban spaces, both in the Global South and N
 Nearly all citizens, with gradiating intensity, are surveilled and oppresed. Against their will they've been turned into combatants.
 
 This references the theories from *Cities Under Siege: the New Military Urbanism*
+
 ---
 # ~~Self-Defense~~ The Offensive in the 4th Generation of War
 ## Similar to above, but what are active forms of preventing surveillance
@@ -81,11 +88,13 @@ This references the theories from *Cities Under Siege: the New Military Urbanism
 But rather the idea of passive vs active combatting of surviellance
 
 *i.e. map of cameras to avoid vs taping over cameras*
+
 ---
 # Supply Chain of the NYPD
 ## Who are the people that supply the NYPD
 
 Mapping the people who support the NYPD infrastructure.
+
 ---
 # Capitalism and the NYPD
 ## Who's making money in the NYPD and what incentives are they playing on and creating
@@ -98,9 +107,11 @@ Mapping the people who support the NYPD infrastructure.
 The NYPD at one point had a contract with the Dataveillance company, Palantir
 
 The NYPD also has around a dozen offices around the world to help aid in the "War on Terrorism"
+
 ---
 # Gamify the NY Surveillance Expereince
 ## A light hearted educational way of understanding systems of surveillance in NY
+
 ---
 # Ethnographic research of NYPD
 ## Understanding the NYPD, through the lens of a user?
