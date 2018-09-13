@@ -1,7 +1,7 @@
 class: middle, center
 
 #User Research
-https://git.io/fAiGD
+[https://git.io/fAiGD]
 
 ---
 
