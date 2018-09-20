@@ -9,4 +9,4 @@
 ## Week 4
 [Written Assignment: Precedents](https://iltimasd.github.io/thesis-documentation/Week%204)
 
-[Prototype | How to avoid the NYPD](https://iltimasd.github.io/thesis-documentation/Week%204/Prototype-2)
+[Prototype \| How to avoid the NYPD](https://iltimasd.github.io/thesis-documentation/Week%204/Prototype-2)
