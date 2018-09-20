@@ -1,0 +1,61 @@
+<html>
+    <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <a href="#" class="return">^top</a>
+        <div class="sidebar">
+                <div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div>
+                <div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div>
+                <div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div>
+                <div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div><div class="sidebar__option">Submit</div>
+        </div>
+        <div class="submit-mobile">SUBMIT</div>
+        <div class="feed">
+            <div class="intro">
+                <div class="intro__header">How to avoid the <span>NYPD</span></div>
+                <div class="intro__content">
+                    Life in New York is a stressful one. Work, Rent, the MTA all contribute to a hectic day-to-day existence. However, for so many communities the stress does not stop there. Many have to deal with harrasment, targeting, and surveillance from the police. Most of us have devoloped tactics to avoid the NYPD to make the trip back home an easier one. This site is crowdsourcing of our methods and ways of becoming&nbsp;invisible.
+                </div>
+            </div>
+            <br>
+        </div>
+        <div class="modal">
+            <div class="modal__content">
+                <form action="https://send.pageclip.co/6FhpK5JY7sMJEnHVZzXl4SsQfsVzoyb8/Tactic-form" class="pageclip-form" method="post">
+                    <textarea type="text" name="tactic" placeholder="Avoid major streets" required></textarea>
+                    <button type="submit" class="button pageclip-form__submit--dark-loader">
+                        <span>Submit</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+        <script src="https://d3js.org/d3-dsv.v1.min.js" charset="utf-8"></script>
+        <script src="https://d3js.org/d3-fetch.v1.min.js"  charset="utf-8"></script>
+        <script>
+            d3.csv("nypd-proto-2-Tactic-form.csv").then(function(data) {
+                data
+                .filter(o => o.tactic != null)
+                .map(o => 
+                    (
+                        document.getElementsByClassName("feed")[0].insertAdjacentHTML("beforeend",
+                        "<div class=\"item\">"+
+                            "<div class=\"item__content\">"+
+                            o.tactic+
+                            "</div>"+
+                            "<div class=\"item__date\">"+
+                            o._timestamp.replace("T"," ").slice(0, -5)+
+                            "</div>"+
+                        "</div>"
+                        )
+                    )
+                );
+            });        
+        </script>
+        <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
+        <script src="index.js" charset="utf-8"></script>
+    </body>
+</html>
