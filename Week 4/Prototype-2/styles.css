@@ -100,7 +100,7 @@ textarea {
 	border: 0;
 	padding: 10px 5px;
     background: white no-repeat;
-	background-image: linear-gradient(to bottom, #1abc9c, #1abc9c), linear-gradient(to bottom, silver, silver);
+	background-image: linear-gradient(to bottom, #000, #000), linear-gradient(to bottom, silver, silver);
 	background-size: 0 2px, 100% 1px;
 	background-position: 50% 100%, 50% 100%;
     transition: background-size 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
@@ -109,7 +109,7 @@ textarea:focus{
 	background-size: 100% 2px, 100% 1px;
 	outline: none;
 }
-.submit-mobile{
+.submit-mobile, .footer-fix{
 display: none;
 }
 @media only screen and (max-width: 600px) {
@@ -127,6 +127,10 @@ display: none;
         padding-top: 3px;
         background-color: #ff2;
     } 
+    .footer-fix{
+        display: block;
+        height: 70px;
+    }
      body{
         position: relative;
     } 
