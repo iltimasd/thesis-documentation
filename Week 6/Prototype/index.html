@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <!-- Load TensorFlow.js -->
+    <script src="https://unpkg.com/@tensorflow/tfjs"></script>
+    <!-- Load Posenet -->
+    <script src="https://unpkg.com/@tensorflow-models/posenet"></script>
+ </head>
+
+  <body>
+    <img id="image" src="photos/officer (1).jpg" style="width:300px;"/>
+  </body>
+  <!-- Place your code in the script tag below. You can also use an external .js file -->
+  <script>
+    var imageScaleFactor = 0.5;
+    var flipHorizontal = false;
+    var outputStride = 16;
+    var maxPoseDetections = 2;
+
+    var imageElement = document.getElementById('image');
+
+    posenet.load().then(function(net){
+      return net.estimateMultiplePoses(imageElement, 0.5, flipHorizontal, outputStride, maxPoseDetections)
+    }).then(function(poses){
+      console.log(poses);
+    })
+  </script>
+</html>
