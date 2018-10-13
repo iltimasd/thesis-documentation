@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <style>
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|VT323');
+
+
+      /* body { font-family: 'PT Sans'; } */
+      h1, h2, h3, body {
+        font-family: 'VT323';
+        font-weight: normal;
+      }
+      h1{
+        color: blue;
+      }
+      p{
+        font-size: 43px;
+      }
+      ul{
+        background: red;
+      }
+      li{
+        font-size: 35px;
+        list-style-type: square;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      img{
+        position: absolute;
+        height:90%;
+      }
+    </style>
+  </head>
+  <body>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create({
+      sourceUrl: 'README.md'
+});
+    </script>
+  </body>
+</html>
