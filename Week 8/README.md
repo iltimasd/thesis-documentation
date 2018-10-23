@@ -26,7 +26,7 @@ Potential final forms
 ---
 class: middle, center
 # Current prototype
-[link](./Week 6/Prototype/index.html)
+[link](../Week 6/Prototype/index.html)
 ---
 class: middle, center
 # Precedents
