@@ -1,27 +1,85 @@
 <html>
-  <head>
-    <!-- Load TensorFlow.js -->
-    <script src="https://unpkg.com/@tensorflow/tfjs"></script>
-    <!-- Load Posenet -->
-    <script src="https://unpkg.com/@tensorflow-models/posenet"></script>
- </head>
+<head>
+  <!-- Load TensorFlow.js -->
+  <script src="https://unpkg.com/@tensorflow/tfjs"></script>
+  <!-- Load Posenet -->
+  <script src="https://unpkg.com/@tensorflow-models/posenet"></script>
+  <script src="./pose-util.js"></script>
+  <style>
+    #coor{
+      white-space: pre; 
+      font-family: monospace; 
+    }
+  </style>
+</head>
 
-  <body>
-    <img id="image" src="photos/officer (1).jpg" style="width:300px;"/>
-  </body>
-  <!-- Place your code in the script tag below. You can also use an external .js file -->
-  <script>
-    var imageScaleFactor = 0.5;
-    var flipHorizontal = false;
-    var outputStride = 16;
-    var maxPoseDetections = 2;
+<body>
+  <p id="status"></p>
+  <canvas id="canvas" ></canvas>
+  <select id="imgList">
+      <option value="officer (1).jpg">1</option>
+      <option value="officer (2).jpg">2</option>
+      <option value="officer (3).jpg">3</option>
+      <option value="officer (4).jpg">4</option>
+  </select>
+  <img id="image" src="photos/officer (1).jpg" style="visibility: hidden;"/>
+  
 
-    var imageElement = document.getElementById('image');
+  <div id="coor"></div>
 
-    posenet.load().then(function(net){
-      return net.estimateMultiplePoses(imageElement, 0.5, flipHorizontal, outputStride, maxPoseDetections)
-    }).then(function(poses){
-      console.log(poses);
-    })
-  </script>
+</body>
+<!-- Place your code in the script tag below. You can also use an external .js file -->
+<script>
+  var sizes = [500,500];
+  var imageScaleFactor = 0.5;
+  var flipHorizontal = false;
+  var outputStride = 16;
+  var maxPoseDetections = 2;
+  var minPartConfidence = 0.5;
+  var minPoseConfidence = 0.5;
+  var imageElement = document.getElementById('image');
+  var cv=document.getElementById('canvas');
+  imageElement.setAttribute("width",1000);
+  imageElement.setAttribute("height",1000);
+  
+  document.getElementById("imgList").onchange = selectImage;
+
+  poseEstimate();
+  
+function selectImage(){
+  imageElement.src="photos/"+this.value;
+  imageElement.onload= function(){ 
+    poseEstimate();
+  }
+}
+
+function poseEstimate(){
+  renderImageToCanvas(imageElement,sizes,cv);
+  
+  posenet.load().then(function(net){
+  return net.estimateMultiplePoses(imageElement, 0.5, flipHorizontal, outputStride, maxPoseDetections)
+}).then(function(poses){
+  drawPoses(poses);
+});
+}
+
+function drawPoses(poses){
+  poses.map(p => {      
+      document.getElementById("coor").appendChild(document.createTextNode( JSON.stringify(p, null, 4)));
+      if (p.score >= minPoseConfidence) {
+        drawSkeleton(
+        p.keypoints, minPartConfidence, cv.getContext('2d'), sizes[0]/1000
+        );
+        drawKeypoints(
+        p.keypoints, minPartConfidence, cv.getContext('2d'), sizes[0]/1000
+        );
+      }
+    }      
+    );
+}
+  
+
+
+
+</script>
 </html>
