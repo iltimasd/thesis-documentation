@@ -6,6 +6,7 @@ https://git.io/fxBif
 ---
 # Statement
 class:middle
+
 my previous works and interests lie in police surveillance and how citizens can navigate around it. In my work I am exploring what it means to be under surveillance. Often I look to "flip the script" of surveillance, turning tools of surveillance to surveilers, in order to create moments reflection and critique.
 
 ---
