@@ -1,6 +1,7 @@
 
 class: middle, center
 # Midterm Thesis Critique
+## Iltimas Doha
 https://git.io/fxBif
 
 ---
@@ -9,6 +10,17 @@ https://git.io/fxBif
 my previous works and interests lie in police surveillance and how citizens can navigate around it. In my work I am exploring what it means to be under surveillance. Often I look to "flip the script" of surveillance, turning tools of surveillance to surveilers, in order to create moments reflection and critique.
 
 ---
+class:middle
+
+# Previous Prototypes
+
+User Research 
+https://git.io/fAiGD
+
+Prototype : How to avoid the NYPD
+[link](https://iltimasd.github.io/thesis-documentation/Week%204/Prototype-2/)
+---
+
 # Conflict V3
 my thesis, tentatively named Conflict V3, addresses police and data surveillance. I aim to create a taxonomy of the posture of police officers when idle, and engage with the bodily form of surveillance. It will be done though photographing officers and running the photos through pose estimation algorithms.
 ---
@@ -44,16 +56,7 @@ class: middle, center
 ![NetofNY](http://seeingnetworks.in/img/nyc/guide/manhole.jpg)
 #### 2015, INGRID BURRINGTON, Book
 ---
-class:middle
 
-# Previous Prototypes
-
-User Research 
-https://git.io/fAiGD
-
-Prototype : How to avoid the NYPD
-[link](https://iltimasd.github.io/thesis-documentation/Week%204/Prototype-2/)
----
 # Thank you
 Thesis Documentation
 
