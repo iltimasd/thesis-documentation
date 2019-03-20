@@ -2,14 +2,11 @@
 
 ## Presentations
 ### 2/4
-[https://docs.google.com/presentation/d/1-GGY4OFFS-Q9fOS36r8ozz093VPO22HxLN_nGpY9FoI/edit#slide=id.g4b2c02b451_0_16
-]
+[https://docs.google.com/presentation/d/1DwWyygFZSBxZGQLZXH1xMQir_uRTItmJIPUPq2YEXQM/edit?usp=sharing]
 ### 2/20
-[https://docs.google.com/presentation/d/1DwWyygFZSBxZGQLZXH1xMQir_uRTItmJIPUPq2YEXQM/edit#slide=id.g4fc2edea3a_0_0
-]
+[https://docs.google.com/presentation/d/1DwWyygFZSBxZGQLZXH1xMQir_uRTItmJIPUPq2YEXQM/edit?usp=sharing]
 ### 3/4
-[https://docs.google.com/presentation/d/1ps9pU-8_8Sgoq95TxbklYRe7J2DkQYeFj2FR-nMx3s0/edit?usp=sharing
-]
+[https://docs.google.com/presentation/d/1ps9pU-8_8Sgoq95TxbklYRe7J2DkQYeFj2FR-nMx3s0/edit?usp=sharing]
 ## Writings
 
 ### 2/4
