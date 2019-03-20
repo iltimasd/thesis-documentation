@@ -1,14 +1,16 @@
-#Midterm Assets
+# Midterm Assets
 
 ## Presentations
 ### 2/4
-https://docs.google.com/presentation/d/1-GGY4OFFS-Q9fOS36r8ozz093VPO22HxLN_nGpY9FoI/edit#slide=id.g4b2c02b451_0_16
+[https://docs.google.com/presentation/d/1-GGY4OFFS-Q9fOS36r8ozz093VPO22HxLN_nGpY9FoI/edit#slide=id.g4b2c02b451_0_16
+]
 ### 2/20
-https://docs.google.com/presentation/d/1DwWyygFZSBxZGQLZXH1xMQir_uRTItmJIPUPq2YEXQM/edit#slide=id.g4fc2edea3a_0_0
+[https://docs.google.com/presentation/d/1DwWyygFZSBxZGQLZXH1xMQir_uRTItmJIPUPq2YEXQM/edit#slide=id.g4fc2edea3a_0_0
+]
 ### 3/4
-https://docs.google.com/presentation/d/1ps9pU-8_8Sgoq95TxbklYRe7J2DkQYeFj2FR-nMx3s0/edit?usp=sharing
-
-## Wrritings
+[https://docs.google.com/presentation/d/1ps9pU-8_8Sgoq95TxbklYRe7J2DkQYeFj2FR-nMx3s0/edit?usp=sharing
+]
+## Writings
 
 ### 2/4
 My thesis Conflict V3 has taken inspiration from many places. One of the first is Ingrid Burrington’s Networks of New York. In this book, Burrington provides a field guide to internet infrastructure in new york. Through drawings and diagrams, Burrington gives users the ability to unveil the infrastructure around us all the time. It is this ability that I am interested in exploring. How can CV3 do for AI/ML and police surveillance what Burrington has done for the Internet.
@@ -21,11 +23,18 @@ In  Machine Bias Julia Angwin, Jeff Larson, Lauren Kirchner, and Surya Mattu, in
 
 Lastly in this project, I am looking towards Automated Inference on Criminality using Face Images. This academic paper is less of a project inspiration, but rather what my project is responding to. In this paper, the authors alleged to have designed an algorithm is able to infer the criminality of someone based solely from a portrait. This area of technology is one I hope to respond to with CV3 to hopefully communicate how scary this technology is and how it will impact us.
 
+#### Bibliography
+
 Angwin, Julia, Jeff Larson, Lauren Kirchner, and Surya Mattu. "Machine Bias." ProPublica. May 23, 2016.
+
 Burrington, Ingrid. 2016. Networks of New York. New York: Melville House.
+
 Comes, Eric. 2018. Machine Learning Methods for Predicting Global and Local Crime in an Urban Area ProQuest Dissertations Publishing.
+
 Sam Lavigne. "Ice.Csv." GitHub., accessed 19 June, 2018, https://raw.githubusercontent.com/antiboredom/ice-linkedin/master/ice.csv.
+
 BIT Plane. NTSC. Directed by the Bureau of Inverse Technology. Chicago: School of the Art Institute of Chicago, 1999.
+
 Wu and Zhang. 2016. "Automated Inference on Criminality using Face Images." Arxiv 1611.
 
 ### 3/4
